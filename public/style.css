@@ -1,0 +1,73 @@
+@charset "UTF-8";
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-image: url("../images/loginSfondo.png");
+    background-size: cover;
+    background-repeat: no-repeat; 
+    background-attachment: fixed; 
+    background-position: center;
+    font-family: Garamond;
+}
+
+input {
+    background: white;
+    color: #800000;
+    border: none;
+    border-radius: 6px;
+    padding: 10px;
+    outline: none;
+    width: 300px;
+    font-size: 20px;
+    font-family: "Garamond";
+}
+
+.contenitore {
+    padding: 20px;
+    border-radius: 10px;
+	height: 320px;
+	width: 560px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center;
+    gap: 20px;
+	background-color: white;
+    text-align: center;
+    margin-bottom: 5.6em;
+    margin-left: 1em;
+}
+
+.form-group {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    width: 100%;
+}
+
+button {
+    background: #800000;
+    color: white;
+    border-color: white;
+    padding: 10px 20px;
+    width: 100px;
+    font-size: 1.3em;
+    border-radius: 5px;
+    font-family: "Garamond";
+}
+
+button:hover {
+    background: #a00000;
+    transition: 0.2s;
+    border: 1px solid #800000;
+}
+
+input:focus {
+    outline: 2px solid #800000;
+}
