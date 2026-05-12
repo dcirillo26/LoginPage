@@ -6,17 +6,21 @@
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
-	<div class="contenitore">
-		<p style="font-size: 160%; color: #800000;"><b>Accedi per comprare
-			e vendere ciò che non usi più</b>
-		<div class="form-group">
-			<input type="text" id="email" name="email"
-				placeholder="Indirizzo email"> <input type="password"
-				id="password" name="password" placeholder="Password">
-			<button type = "submit">Login</button>
+	<form action = "#" method = "post">
+		<div class="contenitore">
+			<p style="font-size: 160%; color: #800000;">
+				<b>Accedi per comprare e vendere ciò che non usi più</b>
+				</p>
+			<div class="form-group">
+				<input type="email" id="email" name="email"
+					placeholder="Indirizzo email" required> <input type="password"
+					id="password" name="password" placeholder="Password" required>
+				<button type="submit">Login</button>
+			</div>
+			<p style="font-size: 122%">
+				<b>Non hai un account? <a href="signIn.html">Registrati</a></b>
+				</p>
 		</div>
-		<p style="font-size: 122%">
-			<b>Non hai un account? <a href="signIn.html">Registrati</a></b>
-	</div>
+	</form>
 </body>
 </html>
